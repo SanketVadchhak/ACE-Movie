@@ -1,6 +1,6 @@
 # ACE-Movie
 
-[Live Demo](https://sanketvadchhak.github.io/ACE-Movie/)
+[ACE-Movie](https://sanketvadchhak.github.io/ACE-Movie/)
 
 ## Overview
 
