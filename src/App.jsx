@@ -4,6 +4,7 @@ import Search from "./components/Search";
 import Spinner from "./components/Spinner";
 import MovieCard from "./components/MovieCard";
 import { useDebounce } from "react-use";
+import logo from '/hero.png';
 
 const App = () => {
   const API_BASE_URL = "https://api.themoviedb.org/3";
@@ -61,7 +62,7 @@ const App = () => {
 
         <div className="wrapper">
           <header>
-            <img src="/hero.png" alt="" />
+            <img src={logo} alt="" />
             <h1>
               Find <span className="text-gradient">Movies</span> You'll Enjoy
               Without The Hassel
