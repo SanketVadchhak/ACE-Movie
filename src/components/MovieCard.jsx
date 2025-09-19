@@ -1,9 +1,10 @@
 import React from "react";
+import placeholder from '/no-movie.png';
 
 const MovieCard = ({movie : {title, vote_average, release_date, backdrop_path, poster_path, original_language}}) => {
   return (
     <div className="movie-card">
-      <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-movie.png'} alt="" />
+      <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : {placeholder}} alt="" />
       <div className="mt-4">
         <h3>{title}</h3>
         <div className="content">
